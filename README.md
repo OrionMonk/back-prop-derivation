@@ -160,7 +160,7 @@ So, the delta vector for the output layer is,
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;in\hspace{0.2cm}general:\overline\delta^{(N)}&space;=&space;\frac{\partial&space;C}{\partial&space;\overline&space;a^{(N)}}&space;\odot&space;\sigma'(\overline&space;z^{(N)})" title="\large in\hspace{0.2cm}general:\overline\delta^{(N)} = \frac{\partial C}{\partial \overline a^{(N)}} \odot \sigma'(\overline z^{(N)})" />
 
-### Delta/Error Vectors for Subsequent Layers
+### Delta or Error Vectors for Subsequent Layers
 The error vectors can be calculated by propagating through each layer backwards one by one, hence **Backpropagation**. 
 Let us try to calculate <img src="https://latex.codecogs.com/svg.latex?\large&space;\overline\delta^{(1&space;)}" title="\large \overline\delta^{(1 )}" /> using <img src="https://latex.codecogs.com/svg.latex?\large&space;\overline\delta^{(2)}" title="\large \overline\delta^{(2)}" />
 
