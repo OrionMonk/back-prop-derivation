@@ -162,7 +162,7 @@ So, the delta vector for the output layer is,
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;in\hspace{0.2cm}short:\overline\delta^{(2)}&space;=&space;\frac{\partial&space;C}{\partial&space;\overline&space;a^{(2)}}&space;\odot&space;\sigma'(\overline&space;z^{(2)})" title="\large in\hspace{0.2cm}short:\overline\delta^{(2)} = \frac{\partial C}{\partial \overline a^{(2)}} \odot \sigma'(\overline z^{(2)})" />
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;in\hspace{0.2cm}general:\overline\delta^{(N)}&space;=&space;\frac{\partial&space;C}{\partial&space;\overline&space;a^{(N)}}&space;\odot&space;\sigma'(\overline&space;z^{(N)})" title="\large in\hspace{0.2cm}general:\overline\delta^{(N)} = \frac{\partial C}{\partial \overline a^{(N)}} \odot \sigma'(\overline z^{(N)})" />
+<img src="https://latex.codecogs.com/svg.latex?&space;in\hspace{0.2cm}general:\overline\delta^{(N)}&space;=&space;\frac{\partial&space;C}{\partial&space;\overline&space;a^{(N)}}&space;\odot&space;\sigma'(\overline&space;z^{(N)})" title="in\hspace{0.2cm}general:\overline\delta^{(N)} = \frac{\partial C}{\partial \overline a^{(N)}} \odot \sigma'(\overline z^{(N)})" />
 
 ### Delta or Error Vectors for Subsequent Layers
 The error vectors can be calculated by propagating through each layer backwards one by one, hence **Backpropagation**. 
@@ -184,4 +184,4 @@ Since, <img src="https://latex.codecogs.com/svg.latex?\large&space;\overline&spa
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;in\hspace{0.2cm}short:\overline\delta^{(1)}&space;=&space;(&space;(\overline&space;\theta^{(2)})^\intercal&space;\times&space;\overline\delta^{(2)})&space;\odot&space;\sigma'(\overline&space;z^{(1)})" title="\large in\hspace{0.2cm}short:\overline\delta^{(1)} = ( (\overline \theta^{(2)})^\intercal \times \overline\delta^{(2)}) \odot \sigma'(\overline z^{(1)})" />
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;in\hspace{0.2cm}general:&space;\overline\delta^{(n-1)}&space;=&space;(&space;(\overline&space;\theta^{(n)})^\intercal&space;\times&space;\overline\delta^{(n)})&space;\odot&space;\sigma'(\overline&space;z^{(n-1)})" title="\large in\hspace{0.2cm}general: \overline\delta^{(n-1)} = ( (\overline \theta^{(n)})^\intercal \times \overline\delta^{(n)}) \odot \sigma'(\overline z^{(n-1)})" />
+<img src="https://latex.codecogs.com/svg.latex?&space;in\hspace{0.2cm}general:&space;\overline\delta^{(n-1)}&space;=&space;(&space;(\overline&space;\theta^{(n)})^\intercal&space;\times&space;\overline\delta^{(n)})&space;\odot&space;\sigma'(\overline&space;z^{(n-1)})" title="in\hspace{0.2cm}general: \overline\delta^{(n-1)} = ( (\overline \theta^{(n)})^\intercal \times \overline\delta^{(n)}) \odot \sigma'(\overline z^{(n-1)})" />
