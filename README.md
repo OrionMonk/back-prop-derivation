@@ -132,10 +132,14 @@ which can be represented as -
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{\partial&space;C}{\partial&space;\overline&space;\theta^{(1)}}&space;=&space;\overline\delta^{(1)}&space;\times&space;\overline&space;x^\intercal" title="\large \frac{\partial C}{\partial \overline \theta^{(1)}} = \overline\delta^{(1)} \times \overline x^\intercal" />
 
+<img src="https://latex.codecogs.com/svg.latex?in\hspace{0.2cm}general:&space;\frac{\partial&space;C}{\partial&space;\overline\theta^{(n)}}&space;=&space;\overline\delta^{(n)}\times(\overline&space;a^{(n-1)})^\intercal" title="in\hspace{0.2cm}general: \frac{\partial C}{\partial \overline\theta^{(n)}} = \overline\delta^{(n)}\times(\overline a^{(n-1)})^\intercal" />
+
 ### Biases of the hidden layer
 Similarly for the biases of the hidden layer, the partial differentiation is - 
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{\partial&space;C}{\partial&space;\overline&space;b^{(1)}}&space;=&space;\overline\delta^{(1)}" title="\large \frac{\partial C}{\partial \overline b^{(1)}} = \overline\delta^{(1)}" />
+
+<img src="https://latex.codecogs.com/svg.latex?in\hspace{0.2cm}general:&space;\frac{\partial&space;C}{\partial&space;\overline&space;b^{(n)}}&space;=&space;\overline\delta^{(n)}" title="in\hspace{0.2cm}general: \frac{\partial C}{\partial \overline b^{(n)}} = \overline\delta^{(n)}" />
 
 ## How do we calculate the error/delta vector for each layer?
 One can easily notice that once we get hold of the delta/error vector <img src="https://latex.codecogs.com/svg.latex?\large&space;\overline\delta^{(i)}" title="\large \overline\delta^{(i)}" /> for each layer i, it is very easy to calculate the error in the weights and biases of each layer.
