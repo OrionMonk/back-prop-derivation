@@ -1,6 +1,6 @@
 
 ## Understanding and Deriving the Backpropagation algorithm in a simple neural network
-Let us try to understand the Backpropagation algorithm using a overly simplified Neural Network with just one hidden layer.
+Let us try to understand the Backpropagation algorithm using an overly simplified Neural Network with just one hidden layer.
 
 It has a bit of linear algebra and calculus involved but anyone who has atleast the basic knowledge about matrix multiplication and the chain rule of differentiation, should be able to follow through most of what will be discussed. 
 
