@@ -9,7 +9,7 @@ We shall not delve too deep into proving the algorithm itself, but at the end, i
 ## The model
 For the sake of simplicity, we will be using a Neural Network with two inputs, two outputs and one hidden layer with 3 nodes. 
 
-<img src="https://raw.githubusercontent.com/OrionMonk/back-prop-derivation/master/images/nn.jpg"/>
+<img src="https://github.com/mizimo/Backprop-Derivation/raw/master/images/nn.jpg"/>
 
 ## Notations
 Let us represent <img src="https://latex.codecogs.com/svg.latex?\overline&space;x" title="\overline x" /> as the input, <img src="https://latex.codecogs.com/svg.latex?\overline&space;a^{(1)}" title="\overline a^{(1)}" /> as the activation of the hidden layers, <img src="https://latex.codecogs.com/svg.latex?\overline&space;a^{(2)}" title="\overline a^{(2)}" /> as the output and <img src="https://latex.codecogs.com/svg.latex?\overline&space;b^{(1)}" title="\overline b^{(1)}" /> and <img src="https://latex.codecogs.com/svg.latex?\overline&space;b^{(2)}" title="\overline b^{(2)}" /> as the biases in the hidden layer and the output layer respectively.
